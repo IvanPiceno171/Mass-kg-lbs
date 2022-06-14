@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10vh;
+}
+
+.massbox, .milesbox{
+    border: 5px solid rgb(0, 0, 0);
+    height: 40vh;
+    padding: 50px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.281);
+}
+
+.bottom{
+    margin-top: 100%;
+}
+.heroimg{
+    height: 30vh;
+    background-image: url(/img/hangover-gif.gif);
+    background-size: contain;
+}
+button{
+    color: blue;
+}
