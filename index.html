@@ -9,14 +9,20 @@
     <script src="main.js" defer></script>
 </head>
 <body>
-
+<div class="heroimg"></div>
     <div class="container">
-        <div class="coloredbox">
+        <div class="massbox">
             <h2>Kilograms to Pounds </h2>
-            <!-- <input type="number" id="inputVal" placeholder="Enter kilograms Here" onchange="convert()"></input> -->
             <input type="number" id="inputVal" placeholder="Enter kilograms Here"></input>
             <button class="result" onclick="convertclick()">Get answer</button>
-            <h2>Total Pounds: <span class="output"></span></h2>
+            <h2 class="bottom">Total Pounds: <span class="output"></span></h2>
+          
+        </div>
+        <div class="milesbox">
+            <h2>Miles to Kilometers </h2>
+            <input type="text" id="inputVal2" placeholder="Enter Miles Here"></input>
+            <button class="result2" onclick="convertMiles()">Get answer</button>
+            <h2 class="bottom">Total Kilometers: <span class="output2"></span></h2>
           
         </div>
     </div>
